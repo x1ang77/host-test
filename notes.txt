@@ -1,0 +1,40 @@
+REST API
+
+
+URI - Uniform Resource Identifier
+https://facebook.com/posts/1
+
+
+GET     /posts      (Get all the posts)
+
+POST    /posts      (Add post)
+
+GET     /posts/id   (Get a single post)
+        
+PUT     /posts/id   (Update a post)
+        
+DELETE  /posts/id   (Delete a post)
+
+
+
+Assignment Due on Monday (8 August 2022)
+- Create a comments endpoint where users can 
+    - Add comment
+    - Edit comment
+    - Delete comment
+
+ADD 
+    - You should only be able to add comment on a post if you are logged in.
+
+EDIT 
+    - You should only edit comments that belongs to you
+
+DELETE
+    - You should only delete comments that belongs to you
+
+
+=======LIKES=======
+    - If your userId is not yet inside the likers property then add your id, else remove userId.
+                    
+                    
+                    
